@@ -10,7 +10,6 @@ data = {
 df = pd.DataFrame(data)
 
 # add new row
-
 #new_row = {"name": "charlie", "age": 35, "city": "chicago"}
 #df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
 
