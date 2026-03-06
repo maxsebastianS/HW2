@@ -10,8 +10,8 @@ data = {
 df = pd.DataFrame(data)
 
 # add new row
-#new_row = {"name": "charlie", "age": 35, "city": "chicago"}
-#df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
+new_row = {"name": "charlie", "age": 35, "city": "chicago"}
+df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
 
 #new_row2 = {"name": "dave", "age": 40, "city": "san francisco"}
 #df = pd.concat([df, pd.DataFrame([new_row2])], ignore_index=True)
